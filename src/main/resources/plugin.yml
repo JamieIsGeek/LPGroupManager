@@ -1,0 +1,7 @@
+name: LPGroupManager
+version: '${project.version}'
+main: dev.jamieisgeek.lpgroupmanager.LPGroupManager
+api-version: 1.19
+depend: [ LuckPerns ]
+authors: [ JamieIsGeek ]
+description: A GUI based menu that allows server admins and moderators to apply LuckPerms groups to users!
