@@ -20,6 +20,8 @@ public final class LPGroupManager extends JavaPlugin {
             Bukkit.getPluginManager().disablePlugin(this);
         } else {
             new Manager();
+            getCommand("grant").setExecutor(new CommandHandler());
+            getCommand("gmreload").setExecutor(new ReloadCommand());
 
             log.info("");
             log.info("=+=+=+=+=+=+=+=+=+=+=");

@@ -5,3 +5,13 @@ api-version: 1.19
 depend: [ LuckPerns ]
 authors: [ JamieIsGeek ]
 description: A GUI based menu that allows server admins and moderators to apply LuckPerms groups to users!
+commands:
+  grant:
+    description: Grant a group to a user
+    usage: /grant <player>
+    aliases: [ g ]
+    permission: lpgroupmanager.grant
+  reload:
+    description: Reload the plugin
+    usage: /gmreload
+    permission: lpgroupmanager.reload
